@@ -11,5 +11,5 @@ Veri tiplerinin hem teknik hem de iş analizi açısından önemini pekiştirmek
 - DATE veri tipi
 
 ## Dosyalar
-- [Veri Tipleri Alıştırma](alistirmalar/02-veri-tipleri/veri_tipleri_alistirma.sql/)
+- [Veri Tipleri Alıştırma](alistirmalar/02-veri-tipleri/veri_tipleri_alistirma.sql)
 - [02 — Veri Tipleri](alistirmalar/02-veri-tipleri/)
