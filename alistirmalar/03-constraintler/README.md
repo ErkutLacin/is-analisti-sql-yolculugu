@@ -14,3 +14,4 @@ constraint’lerinin nasıl çalıştığını ve iş kurallarını veri tabanı
 
 ## 🧪 Deneyin
 Dosyadaki "hatalı senaryoları" yorum satırından çıkararak çalıştırmayı deneyin ve sistemin hangi durumlarda hata verdiğini gözlemleyin.
+- [Constraint Alıştırması](Constraint-(Kısıt)-Alıştırması.sql)
