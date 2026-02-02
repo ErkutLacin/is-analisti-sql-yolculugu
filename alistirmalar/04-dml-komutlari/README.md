@@ -15,3 +15,4 @@ konularını pratik ediyoruz.
 
 ## 🧪 Deneyin
 Script’i adım adım çalıştırın ve her işlemden sonra SELECT sorgusunun sonucunu inceleyin.
+- [DML- Alistirma](dml_alistirma.sql)
