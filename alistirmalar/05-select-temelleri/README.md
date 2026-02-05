@@ -14,6 +14,6 @@ Bu çalışmada:
 konularını pratik ediyoruz.
 
 ## 🧪 Nasıl Çalıştırılır?
-Önce musteri_islemleri tablosunun oluşturulduğu veri seti dosyasını çalıştırın, ardından bu alıştırmayı adım adım uygulayın.
+Önce musteri_islemleri_tablosunun oluşturulduğu veri seti dosyasını çalıştırın, ardından bu alıştırmayı adım adım uygulayın.
 
-[musteri_islemleri tablosu](alistirmalar/04-dml-komutlari/dml_alistirma.sql)
+[musteri_islemleri_tablosu](alistirmalar/05-select-temelleri/dmusteri_islemleri_tablosu.sql)
