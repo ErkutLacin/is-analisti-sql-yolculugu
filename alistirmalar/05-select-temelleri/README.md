@@ -14,4 +14,4 @@ Bu çalışmada:
 konularını pratik ediyoruz.
 
 ## 🧪 Nasıl Çalıştırılır?
-Önce [`musteri_islemleri`](alistirmalar/05-select-temelleri/musteri_islemleri_tablosu.sql) tablosunun oluşturulduğu veri seti dosyasını çalıştırın, ardından bu alıştırmayı adım adım uygulayın.
+Önce [musteri_islemleri tablosu](alistirmalar/05-select-temelleri/musteri_islemleri_tablosu.sql) 'nun oluşturulduğu veri seti dosyasını çalıştırın, ardından bu alıştırmayı adım adım uygulayın.
