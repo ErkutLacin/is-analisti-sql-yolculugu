@@ -16,4 +16,4 @@ konularını pratik ediyoruz.
 ## 🧪 Nasıl Çalıştırılır?
 Önce [musteri_islemleri_tablosu](musteri_islemleri_tablosu.sql) 'nun oluşturulduğu veri seti dosyasını çalıştırın, ardından bu alıştırmayı adım adım uygulayın.
 
-
+- [SELECT alıştırma](select_temelleri_alistirma.sql)
