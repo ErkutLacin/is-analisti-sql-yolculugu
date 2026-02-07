@@ -9,3 +9,4 @@ Bu repo, Oracle SQL öğrenme notlarımı ve alıştırmalarımı içerir.
 - [03 - constraintler](alistirmalar/03-constraintler)
 - [04-dml-komutlari](alistirmalar/04-dml-komutlari)
 - [05-select-temelleri](alistirmalar/05-select-temelleri)
+- [06-select-analiz](alistirmalar/06-select-analiz)
