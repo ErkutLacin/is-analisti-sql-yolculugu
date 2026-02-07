@@ -17,4 +17,4 @@ konularını pratik ediyoruz.
 ## 🧪 Nasıl Çalıştırılır?
 Önce [musteri_islemleri_tablosu](musteri_islemleri_tablosu.sql) nun oluşturulduğu veri seti dosyasını çalıştırın.  
 Ardından bu sorguları adım adım deneyin ve sonuçları inceleyin.
-- [SELECT analiz alıştırma](select_temelleri_alistirma.sql)
+- [SELECT analiz alıştırma](select_analiz_alistirma.sql)
