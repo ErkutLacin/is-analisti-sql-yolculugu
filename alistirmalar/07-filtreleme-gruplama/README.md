@@ -17,3 +17,4 @@ Bu bölüm, SQL’in raporlama ve veri analizi tarafına geçiş noktasıdır.
 ## 🧪 Nasıl Çalıştırılır?
 Önce `musteri_islemleri` tablosunun oluşturulduğu veri setini çalıştırın.  
 Ardından sorguları adım adım deneyin ve sonuçları inceleyin.
+- [where_groupby_having_alistirma](where_groupby_having_alistirma.sql)
