@@ -1,8 +1,10 @@
 -- =========================================================
--- 06 — SELECT ile Veri Analizi Alıştırması
--- Konu: COUNT, SUM, AVG, GROUP BY, HAVING
--- Amaç: Verileri gruplandırarak analiz etmek
--- Bu alıştırma Medium’daki SELECT Analiz yazısına bağlıdır
+-- 06 — Aggregate Fonksiyonlar Alıştırması
+-- Konu: COUNT, SUM, AVG, MIN, MAX
+-- Amaç: Verileri özetleyerek analiz etmek
+-- Bu alıştırma Medium’daki
+-- “Oracle SQL'de Verileri Anlamlandırmak — COUNT, SUM, AVG, MIN ve MAX”
+-- yazısına bağlıdır
 -- =========================================================
 
 
@@ -10,7 +12,7 @@
 
 SELECT COUNT(*) AS toplam_islem_sayisi
 FROM musteri_islemleri;
---AS toplam_islem_sayisi -> ifadesinde; mevcuttaki stunun ismi AS stunun su anda gozukmesini istedigimiz isim, yani mevcuttaki stun basliklarimizin isimlerini tablomuzda degistirmeye olanak saglar
+
 
 -- 2️⃣ TÜM İŞLEMLERİN TOPLAM TUTARI
 
@@ -24,42 +26,32 @@ SELECT AVG(tutar) AS ortalama_islem_tutari
 FROM musteri_islemleri;
 
 
--- 4️⃣ ŞEHRE GÖRE KAÇ İŞLEM YAPILMIŞ?
+-- 4️⃣ EN YÜKSEK VE EN DÜŞÜK İŞLEM TUTARI
 
-SELECT sehir, COUNT(*) AS islem_sayisi
+SELECT MAX(tutar) AS en_yuksek_tutar,
+       MIN(tutar) AS en_dusuk_tutar
+FROM musteri_islemleri;
+
+
+-- 5️⃣ BELİRLİ BİR KOŞULA GÖRE ÖZETLEME
+-- Sadece İstanbul’daki işlemlerin toplam tutarı
+
+SELECT SUM(tutar) AS istanbul_toplam_tutar
 FROM musteri_islemleri
-GROUP BY sehir
-ORDER BY islem_sayisi DESC;
+WHERE sehir = 'Istanbul';
 
 
--- 5️⃣ ŞEHRE GÖRE TOPLAM İŞLEM TUTARI
+-- 6️⃣ BELİRLİ YAŞ ÜZERİNDEKİ MÜŞTERİLERİN ORTALAMA İŞLEM TUTARI
 
-SELECT sehir, SUM(tutar) AS toplam_tutar
+SELECT AVG(tutar) AS ortalama_tutar_30_yas_ustu
 FROM musteri_islemleri
-GROUP BY sehir
-ORDER BY toplam_tutar DESC;
-
-
--- 6️⃣ ŞEHRE GÖRE ORTALAMA İŞLEM TUTARI
-
-SELECT sehir, AVG(tutar) AS ortalama_tutar
-FROM musteri_islemleri
-GROUP BY sehir
-ORDER BY ortalama_tutar DESC;
-
-
--- 7️⃣ SADECE TOPLAM TUTARI 3000'DEN FAZLA OLAN ŞEHİRLER
-
-SELECT sehir, SUM(tutar) AS toplam_tutar
-FROM musteri_islemleri
-GROUP BY sehir
-HAVING SUM(tutar) > 3000;
+WHERE yas > 30;
 
 
 -- =========================================================
--- 8️⃣ CHALLENGE (Kendi başına dene)
+-- 7️⃣ CHALLENGE (Kendi başına dene)
 --
--- 1) Her işlem türü için toplam işlem tutarını hesapla
--- 2) Ortalama işlem tutarı 1000’den büyük olan şehirleri listele
--- 3) En fazla işlem yapılan şehri bul
+-- 1) Ankara’daki işlemlerin ortalama tutarını hesapla
+-- 2) "Para Yatirma" işlemlerinin toplam tutarını bul
+-- 3) 2024 yılı Ocak ayındaki işlemlerin en yüksek tutarını bul
 -- =========================================================
