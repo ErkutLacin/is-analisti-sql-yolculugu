@@ -1,7 +1,7 @@
-# 06 — SELECT ile Veri Analizi Alıştırması
+# 06 — Aggregate Fonksiyonlar Alıştırması
 
 Bu alıştırma, Medium’daki  
-**“Oracle SQL’de Verileri Anlamlandırmak — GROUP BY, COUNT, SUM ve AVG”**  
+**“Oracle SQL'de Verileri Anlamlandırmak — COUNT, SUM, AVG, MIN ve MAX”**  
 yazısına bağlıdır.
 
 ## 🎯 Amaç
@@ -9,12 +9,13 @@ Bu çalışmada:
 - COUNT ile kayıt sayma
 - SUM ile toplam hesaplama
 - AVG ile ortalama hesaplama
-- GROUP BY ile verileri gruplama
-- HAVING ile gruplar üzerinde filtreleme
+- MIN ve MAX ile en küçük ve en büyük değerleri bulma
 
 konularını pratik ediyoruz.
+
+Bu bölümde henüz GROUP BY kullanılmaz. Amaç, tek tablo üzerinde genel özet değerler üretmeyi öğrenmektir.
 
 ## 🧪 Nasıl Çalıştırılır?
 Önce [musteri_islemleri_tablosu](musteri_islemleri_tablosu.sql) nun oluşturulduğu veri seti dosyasını çalıştırın.  
 Ardından bu sorguları adım adım deneyin ve sonuçları inceleyin.
-- [SELECT analiz alıştırma](select_analiz_alistirma.sql)
+- [aggregate_fonksiyonlar_alistirma](aggregate_fonksiyonlar_alistirma.sql)
