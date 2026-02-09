@@ -10,4 +10,4 @@ Bu repo, Oracle SQL öğrenme notlarımı ve alıştırmalarımı içerir.
 - [04 - DML Komutlari](alistirmalar/04-dml-komutlari)
 - [05 - SELECT Temelleri](alistirmalar/05-select-temelleri)
 - [06 - SELECT ile Özetleme (Aggregate)](alistirmalar/06-select-analiz)
-- [07 - Filtreleme  Gruplama](07-filtreleme-gruplama)
+- [07 - Filtreleme  Gruplama](alistirmalar/07-filtreleme-gruplama)
